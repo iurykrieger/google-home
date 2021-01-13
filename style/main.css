@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 8px 0;
+    flex: 1;
+}
+
+.content__logo {
+    height: 56px;
+    width: 160px;
+}
+
+.content__search {
+    margin-top: 18px;
+    padding: 7px 10px 6px 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87);
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #dadce0;
+    outline: 0;
+}
+
+.content__search:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.content__search:focus {
+    border: 1px solid #c11111;
+}
+
+.content__offer {
+    padding: 0 12px;
+    line-height: 28px;
+    margin-top: 24px;
+    font-size: 13px;
+}
+
+.content__offer a {
+    text-decoration: none;
+    color: #c11111;
+}
